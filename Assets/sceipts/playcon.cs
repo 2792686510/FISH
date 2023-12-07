@@ -41,7 +41,7 @@ public class playcon : MonoBehaviour
         if (PlayerPrefs.GetInt("jiazai") == 1)
         {
             level = PlayerPrefs.GetInt("level");
-            money = PlayerPrefs.GetInt("money");
+            moneytext.text = PlayerPrefs.GetInt("money").ToString();
             leveljia = PlayerPrefs.GetInt("jingyan");
 
 
